@@ -3,13 +3,13 @@ import { createCommande } from '../lib/supabase';
 
 // ─── Couleurs Kiros ───────────────────────────────────────
 const C = {
-  primary:    '#1A3A2A',
-  primaryMid: '#2D5E42',
-  gold:       '#B8943F',
-  goldLight:  '#D4AF6A',
-  beige:      '#F5EDD8',
-  cream:      '#FBF8F0',
-  dark:       '#1A1A14',
+  primary:    '#3E1C00',
+  primaryMid: '#5C2C00',
+  gold:       '#C8971A',
+  goldLight:  '#E0B84A',
+  beige:      '#FDF5E6',
+  cream:      '#FFFCF5',
+  dark:       '#1A0C00',
   darkSoft:   'rgba(0,0,0,0.52)',
   border:     'rgba(200,151,26,0.20)',
   danger:     '#C0392B',
