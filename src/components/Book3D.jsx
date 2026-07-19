@@ -10,6 +10,7 @@ const C = {
   dark:       '#1A0C00',
   darkSoft:   'rgba(26,12,0,0.55)',
   border:     'rgba(200,151,26,0.20)',
+  goldDeep:    '#896712', // high-contrast accent for text on white/cream backgrounds
 };
 
 /* ─── ProduitCard ─────────────────────────────────────────── */
@@ -37,7 +38,7 @@ export function ProduitCard({ produit, onAdd, isMobile }) {
             maxWidth: isMobile ? '55vw' : 380,
           }}>{produit.nom}</span>
           <span style={{ flex: 1, borderBottom: `1.5px dotted rgba(200,151,26,0.30)`, position: 'relative', top: -3, minWidth: 8 }} />
-          <span style={{ fontSize: 15, fontWeight: 800, color: C.gold, whiteSpace: 'nowrap', flexShrink: 0 }}>
+          <span style={{ fontSize: 15, fontWeight: 800, color: C.goldDeep, whiteSpace: 'nowrap', flexShrink: 0 }}>
             {Number(produit.prix).toFixed(2)} $
           </span>
         </div>
